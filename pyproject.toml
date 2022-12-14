@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "yaml"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yamlconfig"
+version = "0.0.1"
+authors = [
+  { name="Stefano Furin", email="furins@gmail.com" },
+]
+description = "A package to load configurations stored as YAML files"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/furins/yamlconfig"
+"Bug Tracker" = "https://github.com/furins/yamlconfig/issues"
