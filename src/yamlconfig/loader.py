@@ -7,7 +7,7 @@ class ImproperConfiguration(Exception):
     """Eccezione sollevata quando si riscontra un file non valido e non recuperabile
     """
 
-def loadconfig():
+def loadconfig() -> dict:
     """
     Carica il file di configurazione.
 
