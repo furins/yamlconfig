@@ -22,3 +22,7 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/furins/yamlconfig"
 "Bug Tracker" = "https://github.com/furins/yamlconfig/issues"
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "$version"
